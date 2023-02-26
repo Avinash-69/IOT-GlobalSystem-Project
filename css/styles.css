@@ -1,0 +1,522 @@
+/* ----------------HEADER SECTION-------------------------- */
+body {
+    overflow-x: hidden !important;
+}
+
+#profile{
+    background: transparent url('../photos/profile.jpg');
+    mix-blend-mode: multiply;
+}
+.header{
+    background-color:  #ECF3FF;
+}
+.demo{
+    padding-right:100px ;
+}
+.fa-phone{
+    padding-left: 20px;
+}
+
+.fa-solid{
+    margin: 8px;
+}
+
+.fa-brands{
+    margin:4px;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+a{
+    font-weight: bold;
+    font-size: large;
+}
+.nav-contact{
+    padding: 0px 30px;
+}
+.input-icons i{
+    position: absolute;
+}
+.input-icons{
+    margin: 10px;
+   
+
+}
+.input-field{
+    width: 230px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px;
+    border-style:solid;
+    background-color:  #ECF3FF;
+
+}
+
+input[type="text"]{
+    text-align: center;
+}
+.search{
+    margin: 28px; 
+  
+
+}
+
+.head{
+    display: flex;
+}
+.nav-item{
+    height: 50px;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+
+    text-decoration: none;
+  }
+ 
+.nav-itemhead:hover{
+    background-color: aliceblue;
+}
+.nav-itemhead{
+ 
+    padding: 0px 10px;
+}
+
+
+
+/* ------------------------------------BUISNESS SECTION--------------------------------- */
+.buisnessman{
+    mix-blend-mode: multiply;
+    width: 65%;
+    height: 40%;
+    margin-top: -160px;
+    float: right;
+
+}
+.buis-man{
+    background-image: url('../photos/background.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding: 40px 0px 510px 90px;
+
+    
+}
+
+.buis-text {
+    font-weight: bold;
+}
+.buis-text, .buis-text-p {
+   
+    margin-left: -15px;
+    color: blue;
+
+}
+.buis{
+    margin: 10px 15px 0px 2px;
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    
+}
+
+
+.article{
+    
+    background-image: url('../photos/Group 1244.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    mix-blend-mode:multiply;
+
+    margin-top: 140px;
+    margin-right: 20px;
+    
+    width: 36%;
+    height: 140px;
+    padding: 30px 25px;
+    position: absolute;
+}
+
+.article-1,.article-2{
+    display: flex;
+    font-size:small;
+    font-weight: bold;
+   
+}
+
+
+
+.article-btn-1,.article-btn-2{
+    margin-left: 15%;
+    height: 30px;
+    width: 90px;
+    line-height: 15px;
+    font-size: small;
+    border-radius: 20px;
+        
+}
+
+.article-btn-2{
+    margin-left: 27.7%;
+}
+
+/* ------------------------------SERVICE SECTION------------------------------------ */
+.service h3{
+    font-weight: bold;
+}
+.service-background p{
+    background-image: url('../photos/service-background.jpg') ;
+    background-repeat: no-repeat;
+    width: 1290px;
+    height: 480px;
+    border-top: 2px solid #ECF3FF;
+}
+.service{
+    position: absolute;
+    width: 92%;
+    background-color: white;
+    margin: -160px 65px;
+    padding: 40px 0px ;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+   
+}
+.col2,.col4{
+    margin-left: 30px;
+}
+.col1,.col2,.col3,.col4{
+    display: flex;
+    padding-left: 30px;
+}
+
+.training{
+
+    padding-left: 20px;
+    width: 300px;
+}
+.consulting{
+    padding: 0px 20px;
+    width: 350px;
+}
+
+.webstore{
+    padding-left: 20px;
+    width: 300px;
+}
+
+.solutions{
+    padding: 0px 20px;
+    width: 350px;
+}
+
+.service-image{
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin: 25px 25px;
+  
+
+}
+
+.image-1,.image-2,.image-3,.image-4{    
+    border-radius: 10px;
+    background-color: rgb(240, 246, 255);
+    mix-blend-mode: multiply;
+}
+
+/* --------------------------------------ABOUT US SECTION--------------------------------------------- */
+.about-heading,.about-body{
+    text-align: center;
+}
+.about-heading h3 , .about-heading p{
+    font-weight: bold;
+}
+.about{
+    background-image: url('../photos/service-background.jpg');
+    padding: 50px 50px;
+}
+
+/* -----------------------------------PROFESSIONALS SECTION-------------------------------- */
+.professional{
+    
+    background-color: rgb(233, 241, 255);
+   
+}
+.professional-heading{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0px;
+}
+.pro-container,.pro-row1,.pro-row2,.pro-row3{
+    display: flex;
+}
+.pro-container a{
+    font-size: larger;
+}
+.pro-container h3{
+    font-weight: bold;
+}
+.pro-img{
+    margin-left: 80px ;
+}
+
+
+.pro-col2{
+    margin-left: 55px;
+    padding-right: 30px;
+}
+.pro-logo,.acc-logo,.rating-logo{
+    margin-right: 40px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: px;
+}
+.pro-row1,.pro-row2,.pro-row3{
+    margin: 40px 0px;
+}
+
+/* -------------------------------------------- LATEST NEWS SECTION ----------------------------------------------------- */
+  
+    .blue-dot{
+        width: 23px;
+        height: 23px;
+        margin-left: -50px;
+        margin-top: -100px;
+    }
+    .card-text{
+        font-weight: bold;
+    }
+    .news-head{
+        margin-bottom: -20px;
+    }
+    .news-head h3{
+        padding: 40px;
+        text-align: center;
+    }
+
+    .news-body{
+       
+        margin: 25px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+
+    .view-btn{
+        padding: 50px;
+        text-align: center;
+        
+    }
+
+    .view-more{
+        padding: 10px 30px;
+        border: 1.5px solid blue;
+    }
+
+    .read-more{
+        border-radius: 7px;
+        padding: 6px 75px;
+        text-align: center;
+    }
+        
+    .prev,.next{
+        background-color: white ;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        border-radius: 50%;
+
+            cursor: pointer;
+            position: absolute;
+    
+            width: auto;
+            margin: -400px -45px 0px -60px;
+            padding: 8px 20px;
+            font-weight: bold;
+            font-size: 30px;
+            transition: 0.6s ease;
+            user-select: none;
+          }
+    .container {
+    
+        position: relative;
+      }
+      
+     .next{
+        right:0
+     }
+      
+      .prev:hover, .next:hover {
+        background-color: lightgray
+      }
+
+
+/* ----------------------------------------------- CUSTOMER SECTION -------------------------------------------- */
+.customer{
+    background-image: url('../Photos/customer.png');
+    background-position-x: -40px;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+.content{
+    padding: 40px 0px;
+    text-align: center;
+}
+
+
+section .card-image img{
+
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    margin-top: -60px ;
+    margin-left: -45px;
+}
+
+.profile-card{
+    position: relative;
+    margin-left: 100px;
+    text-align: center;
+    background-color: white;
+    width: 580px;
+    height: 250px;
+
+}
+.customer-container{
+    display: flex;
+    margin-left: 20px;
+}
+.content{
+    padding: 50px 20px;
+}
+.customer-button{
+    margin-left: 45%;
+    padding: 50px 0px;
+}
+.major-clients{
+    text-align: center;
+}
+.major-clients-images{
+    padding: 50px 60px;
+}
+.major-clients-images img{
+    padding: 10px 35px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: 0px 20px;
+    
+}
+
+/* -------------------------------------------FOOTER SECTION-------------------------- */
+.footer{
+    background-color: rgb(6, 28, 65);
+    padding: 50px;
+    padding-top: 80px;
+    font-size:large ;
+
+}
+.footer-1 img{
+    width: 220px;
+}
+.footer-1{
+    color: grey;
+    width: 21%;
+    margin-right: 50px;
+    
+}
+.footer-main{
+    display: flex;
+}
+.footer-main ul{
+    list-style-type: none;
+}
+.footer-2, .footer-3{
+    list-style-type: none;
+    color: white;
+    line-height: 45px;
+    margin-right: 20px;
+}
+.footer-2 a{
+    color: grey;
+
+}
+.footer-4{
+    color: white;
+}
+li a {
+    font-weight: 400;
+}
+.footer-4 input{
+    background-color: rgb(6, 28, 65);
+    border-radius: 5px;
+    border: white solid 1px;
+    height: 60px;
+    width: 400px;
+    color: white;
+    
+
+}
+.footer-4 input::placeholder { 
+    color: white; 
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.footer-4 h4{
+    margin-bottom: 30px;
+}
+.footer-4 input{
+    margin-bottom: 25px;
+
+}
+.subscribe-btn{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+}
+.footer-4 p{
+    margin-top: 60px;
+    font-weight: 200;
+    font-size: larger;
+}
+.footer-4 i{
+    padding: 15px;
+
+    border: 1.5px solid grey;
+    border-radius: 50%;
+}
+.copy{
+    text-align: center;
+    margin-left: 30%;
+    font-size: smaller;
+    font-weight:lighter;
+    margin-top: 8px;
+}
+.copyright{
+    display: flex;
+    color: white;
+    font-weight: 300;
+    font-size:larger;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
